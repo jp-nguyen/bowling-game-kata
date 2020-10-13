@@ -1,4 +1,4 @@
-# The Bowling Game Kata
+# [The Bowling Game Kata](http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)
 
 ## Description
 
@@ -21,7 +21,24 @@ rolled in the tenth frame.
 To fulfill this kata, the following needs to be implemented:
 
 * a class named `Game` which has two methods:
-  + `roll(pins: int)` : called when the player rolls a ball. The argument is the 
-    the number of pins knocked down 
-  + `score()` : called at the end of the game, returning the total score for the
-    game
+  + `roll(pins: int)` : called when the player rolls a ball. The argument is the number of pins knocked down 
+  + `score()` : called at the end of the game, returning the total score for the game
+
+## Goal
+
+The goal of doing this kata is to practice doing *Test Driven Development* and
+adapting that mindset when thinking about problems. The idea is that you should
+be creating the unit tests before writing the code and logic to fulfill the
+test, continuously improving the readability and modularity of the code as you
+go. At the end, your code should be easy to read and understand!
+
+A good roadmap to do this kata would be doing the following tests:
+* A Gutter Game: rolling all zeroes
+* Rolling all ones
+* Rolling a spare
+* Rolling a strike
+* A Perfect Game: rolling all strikes
+
+## Milestones
+
+* **2020-10-13**: Completed the kata via walkthrough in `Python`
